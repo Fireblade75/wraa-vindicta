@@ -13,6 +13,7 @@ const guesses = [
 [1022, "Tomas"],
 [1030, "Ixiking"],
 [1047, "BionicVision"],
+[1069, "Kjellzzzz"],
 [1077, "Terry"],
 [1241, "Slackyrs"],
 [1250, "Gobleno"],
