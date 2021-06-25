@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+h1, a, body {
+    font-family: 'Cabin';
+}
+
+body {
+    background-color: #74bfd0;
+}
+
+main {
+    background-color: rgba(255,255,255,0.5);
+    border: 4px solid #a4540f;
+    max-width: 1024px;
+    border-radius: 32px;
+    margin: 32px auto 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 400;
+}
+
+h1 img {
+    height: 40px;
+    vertical-align: sub;
+}
+
+.promo {
+    text-align: center;
+    font-size: 18px;
+}
+
+a,
+a:hover,
+a:visited {
+    color: #da7605;
+}
+
+.predictions {
+    font-size: 18px;
+    width: 250px;
+    margin: 20px auto 0 auto;
+}
+
+
+.predictions li {
+    list-style: none;
+    margin-top: 10px;
+    display: flex;
+}
+
+li span:first-child {
+    display: inline-block;
+    width: 50px;
+}
+
+li span:last-child {
+    margin-left: 10px;
+    display: inline-block;
+}
+
+hr {
+    background-color: #a4540f;
+    height: 4px;
+    margin: 20px 0 0;
+}
