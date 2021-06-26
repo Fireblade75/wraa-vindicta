@@ -17,7 +17,6 @@ const guesses = [
 [1069, "Kjellzzzz"],
 [1077, "Terry"],
 [1130, "Gielie93"],
-[1150, "gielie93"],
 [1241, "Slackyrs"],
 [1250, "Gobleno"],
 [1398, "Sweety"],
