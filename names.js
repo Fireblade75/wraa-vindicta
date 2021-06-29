@@ -38,7 +38,7 @@ const guesses = [
 [3100, "V U"],
 ]
 
-const currentKc = 1300
+const currentKc = 1418
 const parent = document.getElementById('guessList')
 
 guesses.forEach(guess => {
