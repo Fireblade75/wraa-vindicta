@@ -40,23 +40,30 @@ a:visited {
 
 .predictions {
     font-size: 18px;
-    width: 250px;
-    margin: 20px auto 0 auto;
+    margin-top: 20px;
 }
 
+.predictions ul {
+    padding: 0 40px;
+}
 
 .predictions li {
     list-style: none;
     margin-top: 10px;
     display: flex;
+    justify-content: center;
 }
 
 li span:first-child {
+    flex: 1 1 0;
     display: inline-block;
+    margin-right: 10px;
     width: 50px;
+    text-align: right;
 }
 
 li span:last-child {
+    flex: 1 1 0;
     margin-left: 10px;
     display: inline-block;
 }
