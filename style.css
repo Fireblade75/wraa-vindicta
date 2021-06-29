@@ -73,3 +73,7 @@ hr {
     height: 4px;
     margin: 20px 0 0;
 }
+
+li.wrong span {
+    text-decoration: line-through;
+}

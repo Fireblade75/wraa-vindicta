@@ -38,9 +38,12 @@ const guesses = [
 [3100, "V U"],
 ]
 
+const currentKc = 1300
 const parent = document.getElementById('guessList')
+
 guesses.forEach(guess => {
     const li = document.createElement('li')
+    if(guess[0] < currentKc) li.classList.add('wrong')
     li.innerHTML = `<span>${guess[0]}</span>-<span>${guess[1]}</span`
     parent.append(li)
 })
